@@ -38,7 +38,7 @@ class ZCool(BasicNewsRecipe):
 
 
     def parse_index(self):
-        site = 'https://zcool.com.cn''
+        site = 'https://zcool.com.cn'
         soup = self.index_to_soup(site)
         links = soup.findAll("div", {"class":"boekug content-box_card_item"})
         articles = []
