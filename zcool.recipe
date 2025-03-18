@@ -30,11 +30,11 @@ class ZCool(BasicNewsRecipe):
 
 
 
-    keep_only_tags = [
-        dict(name='div', attrs={'class': 'cardCoverBox'}),
-        dict(name='div', attrs={'class': 'cardTitle-warp'}),
-        dict(name='div', attrs={'class': 'cardUser'}),
-    ]
+    # keep_only_tags = [
+    #     dict(name='div', attrs={'class': 'cardCoverBox'}),
+    #     dict(name='div', attrs={'class': 'cardTitle-warp'}),
+    #     dict(name='div', attrs={'class': 'cardUser'}),
+    # ]
 
 
     def parse_index(self):
