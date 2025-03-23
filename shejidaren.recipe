@@ -2,7 +2,7 @@
 __license__ = 'GPL v3'
 __copyright__ = '2025 wanghu <youin@outlook.com>'
 '''
-shejidaren
+设计达人
 '''
 from calibre.web.feeds.recipes import BasicNewsRecipe
 
@@ -20,11 +20,13 @@ class Shejidaren(BasicNewsRecipe):
 
     timefmt = ' [%d %b %Y]'
     max_articles_per_feed = 10
+    no_stylesheets = True # 去除 CSS 样式
+    remove_javascript = True # 去除 JavaScript 脚本
 
 
     feeds = [
-        ('shejidaren', 'https://www.shejidaren.com/feed'),
-        ('shejizatan', 'https://www.shejidaren.com/category/design-news/feed'),
-        ('shijuesheji', 'https://www.shejidaren.com/category/visual-design/feed'),
-        ('shejizuopin', 'https://www.shejidaren.com/category/web-designin-inspiration/feed')
+        ('设计达人', 'https://www.shejidaren.com/feed'),
+        ('设计杂谈', 'https://www.shejidaren.com/category/design-news/feed'),
+        ('视觉设计', 'https://www.shejidaren.com/category/visual-design/feed'),
+        ('设计作品', 'https://www.shejidaren.com/category/web-designin-inspiration/feed')
     ]
