@@ -17,8 +17,10 @@ class Shejidaren(BasicNewsRecipe):
     encoding = 'utf-8'
     publisher = 'Commyleung'
     language = 'zh'
+    cover_url = 'https://github.com/qin2hou/Calibre-News/blob/6d0736234e308fe2268f4c11a2acf0a1d1dc60bc/covers/shejidaren.png?raw=true'
 
-    max_articles_per_feed = 999
+
+    oldest_article = 2
     no_stylesheets = True # 去除 CSS 样式
     remove_javascript = True # 去除 JavaScript 脚本
 
