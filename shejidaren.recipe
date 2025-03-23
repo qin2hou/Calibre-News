@@ -23,5 +23,8 @@ class Shejidaren(BasicNewsRecipe):
 
 
     feeds = [
-        ('shejidaren', 'https://www.shejidaren.com/feed')
+        ('shejidaren', 'https://www.shejidaren.com/feed'),
+        ('shejizatan', 'https://www.shejidaren.com/category/design-news/feed'),
+        ('shijuesheji', 'https://www.shejidaren.com/category/visual-design/feed'),
+        ('shejizuopin', 'https://www.shejidaren.com/category/web-designin-inspiration/feed')
     ]
