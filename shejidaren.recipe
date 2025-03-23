@@ -1,0 +1,27 @@
+# -*- coding: utf-8 -*-
+__license__ = 'GPL v3'
+__copyright__ = '2025 wanghu <youin@outlook.com>'
+'''
+shejidaren
+'''
+from calibre.web.feeds.recipes import BasicNewsRecipe
+
+
+
+
+class Shejidaren(BasicNewsRecipe):
+
+    title = 'shejidaren'
+    __author__ = u'Commyleung'
+    description = '爱设计，爱分享。'
+    encoding = 'utf-8'
+    publisher = 'Commyleung'
+    language = 'zh'
+
+    timefmt = ' [%d %b %Y]'
+    max_articles_per_feed = 10
+
+
+    feeds = [
+        ('shejidaren', 'https://www.shejidaren.com/feed')
+    ]
