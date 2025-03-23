@@ -19,9 +19,10 @@ class Shejidaren(BasicNewsRecipe):
     language = 'zh'
 
     timefmt = ' [%d %b %Y]'
-    max_articles_per_feed = 10
+    max_articles_per_feed = 999
     no_stylesheets = True # 去除 CSS 样式
     remove_javascript = True # 去除 JavaScript 脚本
+    auto_cleanup = True
 
 
     feeds = [
