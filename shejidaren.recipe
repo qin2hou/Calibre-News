@@ -11,18 +11,16 @@ from calibre.web.feeds.recipes import BasicNewsRecipe
 
 class Shejidaren(BasicNewsRecipe):
 
-    title = 'shejidaren'
+    title = '设计达人'
     __author__ = u'Commyleung'
     description = '爱设计，爱分享。'
     encoding = 'utf-8'
     publisher = 'Commyleung'
     language = 'zh'
 
-    timefmt = ' [%d %b %Y]'
     max_articles_per_feed = 999
     no_stylesheets = True # 去除 CSS 样式
     remove_javascript = True # 去除 JavaScript 脚本
-    auto_cleanup = True
 
 
     feeds = [
