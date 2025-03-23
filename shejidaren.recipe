@@ -11,7 +11,7 @@ from calibre.web.feeds.recipes import BasicNewsRecipe
 
 class Shejidaren(BasicNewsRecipe):
 
-    title = '设计达人'
+    title = 'shejidaren'
     __author__ = u'Commyleung'
     description = '爱设计，爱分享。'
     encoding = 'utf-8'
@@ -22,6 +22,9 @@ class Shejidaren(BasicNewsRecipe):
     no_stylesheets = True # 去除 CSS 样式
     remove_javascript = True # 去除 JavaScript 脚本
 
+    extra_css = '''
+                img.size-full{margin: 0;padding: 0;width: 100%}
+                '''
 
     feeds = [
         ('设计达人', 'https://www.shejidaren.com/feed'),
