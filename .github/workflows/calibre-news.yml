@@ -52,7 +52,7 @@ jobs:
         if: ${{ success() }}
         run: |
           sudo apt-get update
-          sudo apt-get install libegl1 libopengl0 libxcb-cursor0 bzip2 xz libdeflate libffi ncurses readline graphite libgpg-error nodejs nv-codec-headers speech-dispatcher-client
+          sudo apt-get install libegl1 libopengl0 libxcb-cursor0 xdg-utils wget xz-utils
           url=https://download.calibre-ebook.com/linux-installer.sh
           sudo -v && wget -nv -O- $url | sudo sh /dev/stdin
       - name: Retrieving Recipe
