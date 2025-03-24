@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
-__license__ = 'GPL v3'
-__copyright__ = '2025 wanghu <youin@outlook.com>'
-'''
-设计达人
-'''
+# __license__ = 'GPL v3'
+# __copyright__ = '2025 wanghu <youin@outlook.com>'
+
 from calibre.web.feeds.recipes import BasicNewsRecipe
 
 
@@ -19,7 +17,7 @@ class Shejidaren(BasicNewsRecipe):
     language = 'zh'
     cover_url = 'https://github.com/qin2hou/Calibre-News/blob/6d0736234e308fe2268f4c11a2acf0a1d1dc60bc/covers/shejidaren.png?raw=true'
 
-
+    delay = 1
     oldest_article = 2
     no_stylesheets = True # 去除 CSS 样式
     remove_javascript = True # 去除 JavaScript 脚本

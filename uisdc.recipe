@@ -3,7 +3,7 @@
 
 from calibre.web.feeds.recipes import BasicNewsRecipe # 引入 Recipe 基础类
 
-class Wang_Yin_Blog(BasicNewsRecipe): # 继承 BasicNewsRecipe 类的新类名
+class Uisdc(BasicNewsRecipe): # 继承 BasicNewsRecipe 类的新类名
 
     #///////////////////
     # 设置电子书元数据
@@ -26,7 +26,7 @@ class Wang_Yin_Blog(BasicNewsRecipe): # 继承 BasicNewsRecipe 类的新类名
     no_stylesheets = True # 去除 CSS 样式
     remove_javascript = True # 去除 JavaScript 脚本
     auto_cleanup = True # 自动清理 HTML 代码
-    # delay = 5 # 抓取页面间隔秒数
+    delay = 1 # 抓取页面间隔秒数
     oldest_article = 2 # 抓取最近几天的文章
 
     #///////////////////
