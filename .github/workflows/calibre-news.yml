@@ -47,12 +47,12 @@ jobs:
         if: ${{ success() }}
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: "3.13.2"
       - name: Install Calibre
         if: ${{ success() }}
         run: |
           sudo apt-get update
-          sudo apt-get install libegl1 libopengl0 libxcb-cursor0
+          sudo apt-get install libegl1 libopengl0 libxcb-cursor0 bzip2 xz libdeflate libffi ncurses readline graphite libgpg-error nodejs nv-codec-headers speech-dispatcher-client
           url=https://download.calibre-ebook.com/linux-installer.sh
           sudo -v && wget -nv -O- $url | sudo sh /dev/stdin
       - name: Retrieving Recipe
