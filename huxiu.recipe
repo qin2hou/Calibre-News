@@ -1,0 +1,33 @@
+# -*- coding: utf-8 -*-
+# __license__ = 'GPL v3'
+# __copyright__ = '2025 wanghu <youin@outlook.com>'
+
+from calibre.web.feeds.recipes import BasicNewsRecipe
+
+
+
+
+class huXiu(BasicNewsRecipe):
+
+    title = '36氪_让一部分人先看到未来'
+    __author__ = 'www.huxiu.com'
+    description = '虎嗅是一个聚焦科技与创新的资讯平台，致力于为一切热爱思考与发现的用户，提供有效率的信息服务。内容包含前沿科技、汽车、消费、商业、医疗、健康、社会文化、金融财经、出海、国际热点、游戏、娱乐、3C数码、书影音等'
+    publisher = 'www.huxiu.com'
+    language = 'zh'
+    encoding = 'utf-8'
+    
+    
+    # cover_url = 'https://github.com/qin2hou/Calibre-News/blob/4242177c7b3e4903e3e5e8033b2162b992ba78a5/covers/sspai_cover.png?raw=true'
+
+    delay = 1
+    oldest_article = 2
+    no_stylesheets = True # 去除 CSS 样式
+    remove_javascript = True # 去除 JavaScript 脚本
+
+    extra_css = '''
+                img.size-full{margin: 0;padding: 0;width: 100%}
+                '''
+
+    feeds = [
+        ('虎嗅网', 'https://rss.huxiu.com/')
+    ]
