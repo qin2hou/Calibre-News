@@ -13,7 +13,7 @@ class ilsole24ore(BasicNewsRecipe):
     __author__ = 'https://www.ilsole24ore.com'
     description = 'Il Sole 24 ORE - Cultura'
     publisher = 'https://www.ilsole24ore.com'
-    language = 'it-IT'
+    language = 'it'
     encoding = 'utf-8'
     
     
