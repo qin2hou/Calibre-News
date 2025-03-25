@@ -1,0 +1,31 @@
+# -*- coding: utf-8 -*-
+# __license__ = 'GPL v3'
+# __copyright__ = '2025 wanghu <youin@outlook.com>'
+
+from calibre.web.feeds.recipes import BasicNewsRecipe
+
+
+
+
+class Sspai(BasicNewsRecipe):
+
+    title = '少数派'
+    __author__ = 'contact@sspai.com (少数派)'
+    description = '少数派致力于更好地运用数字产品或科学方法，帮助用户提升工作效率和生活品质'
+    publisher = 'contact@sspai.com (少数派)'
+    language = 'zh'
+    encoding = 'utf-8'
+    cover_url = 'https://github.com/qin2hou/Calibre-News/blob/4242177c7b3e4903e3e5e8033b2162b992ba78a5/covers/sspai_cover.png?raw=true'
+
+    delay = 1
+    oldest_article = 2
+    no_stylesheets = True # 去除 CSS 样式
+    remove_javascript = True # 去除 JavaScript 脚本
+
+    extra_css = '''
+                img.size-full{margin: 0;padding: 0;width: 100%}
+                '''
+
+    feeds = [
+        ('最近两天更新', 'https://sspai.com/feed')
+    ]
