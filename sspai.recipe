@@ -23,7 +23,6 @@ class Sspai(BasicNewsRecipe):
     remove_javascript = True # 去除 JavaScript 脚本
 
     extra_css = '''
-                img.size-full{margin: 0;padding: 0;width: 100%}
                 '''
 
     feeds = [
