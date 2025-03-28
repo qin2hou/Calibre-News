@@ -8,7 +8,7 @@ class Uisdc(BasicNewsRecipe): # 继承 BasicNewsRecipe 类的新类名
     #///////////////////
     # 设置电子书元数据
     #///////////////////
-    title = '优设网' # 电子书名
+    title = 'uisdc' # 电子书名
     description = u'优设网 (uisdc.com) 是国内设计师入门到进阶的专业设计网站。AIGC及设计内容全面及时，全网粉丝过千万。专注前沿设计趋势和设计方法论，拥有原创独家设计内容和设计师网站导航。提供AIGC教程、灵感素材、UI设计、平面设计、网页设计、电商设计、SDC网站推荐。' # 电子书简介
     #cover_url = '' # 电子书封面
     cover_url = 'https://github.com/qin2hou/Calibre-News/blob/66f469875dc20138dddc27fdf94b10e9ccbba646/covers/uisdc_masthead.png?raw=true'
