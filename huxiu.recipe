@@ -9,7 +9,7 @@ from calibre.web.feeds.recipes import BasicNewsRecipe
 
 class huXiu(BasicNewsRecipe):
 
-    title = '虎嗅网'
+    title = 'huxiu'
     __author__ = 'www.huxiu.com'
     description = '虎嗅是一个聚焦科技与创新的资讯平台，致力于为一切热爱思考与发现的用户，提供有效率的信息服务。内容包含前沿科技、汽车、消费、商业、医疗、健康、社会文化、金融财经、出海、国际热点、游戏、娱乐、3C数码、书影音等'
     publisher = 'www.huxiu.com'
