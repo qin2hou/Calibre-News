@@ -9,7 +9,7 @@ from calibre.web.feeds.recipes import BasicNewsRecipe
 
 class Sspai(BasicNewsRecipe):
 
-    title = '少数派'
+    title = 'sspai'
     __author__ = 'contact@sspai.com (少数派)'
     description = '少数派致力于更好地运用数字产品或科学方法，帮助用户提升工作效率和生活品质'
     publisher = 'contact@sspai.com (少数派)'
