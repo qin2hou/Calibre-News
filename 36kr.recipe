@@ -9,7 +9,7 @@ from calibre.web.feeds.recipes import BasicNewsRecipe
 
 class sanshiliuKr(BasicNewsRecipe):
 
-    title = '36氪_让一部分人先看到未来'
+    title = '36Kr'
     __author__ = 'marketing@36kr.com'
     description = '36氪通过全面，独家的视角为用户深度剖析最前沿的资讯，致力于让一部分人先看到未来，内容涵盖快讯，科技，金融，投资，房产，汽车，互联网，股市，教育，生活，职场等，秉承着新商业媒体人的使命砥砺前行'
     publisher = 'marketing@36kr.com'
@@ -29,8 +29,5 @@ class sanshiliuKr(BasicNewsRecipe):
                 '''
 
     feeds = [
-        ('综合资讯', 'https://36kr.com/feed'),
-        ('文章资讯', 'https://36kr.com/feed-article'),
-        ('最新快讯', 'https://36kr.com/feed-newsflash'),
-        ('动态内容', 'https://36kr.com/feed-moment')
+        ('综合资讯', 'https://36kr.com/feed')
     ]
