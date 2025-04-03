@@ -18,7 +18,7 @@ class Sspai(BasicNewsRecipe):
     cover_url = 'https://github.com/qin2hou/Calibre-News/blob/4242177c7b3e4903e3e5e8033b2162b992ba78a5/covers/sspai_cover.png?raw=true'
 
     delay = 1
-    oldest_article = 2
+    oldest_article = 1
     no_stylesheets = True # 去除 CSS 样式
     remove_javascript = True # 去除 JavaScript 脚本
 
@@ -26,5 +26,5 @@ class Sspai(BasicNewsRecipe):
                 '''
 
     feeds = [
-        ('最近两天更新', 'https://sspai.com/feed')
+        ('最近更新', 'https://sspai.com/feed')
     ]
