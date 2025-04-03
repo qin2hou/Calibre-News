@@ -27,8 +27,5 @@ class Shejidaren(BasicNewsRecipe):
                 '''
 
     feeds = [
-        ('设计达人', 'https://www.shejidaren.com/feed'),
-        ('设计杂谈', 'https://www.shejidaren.com/category/design-news/feed'),
-        ('视觉设计', 'https://www.shejidaren.com/category/visual-design/feed'),
-        ('设计作品', 'https://www.shejidaren.com/category/web-designin-inspiration/feed')
+        ('设计达人', 'https://www.shejidaren.com/feed')
     ]
