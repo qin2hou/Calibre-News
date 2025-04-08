@@ -29,5 +29,8 @@ class sanshiliuKr(BasicNewsRecipe):
                 '''
 
     feeds = [
-        ('综合资讯', 'https://36kr.com/feed')
+        ('feed', 'https://36kr.com/feed'),
+        ('feed-article', 'https://36kr.com/feed-article'),
+        ('feed-newsflash', 'https://36kr.com/feed-newsflash'),
+        ('feed-moment', 'https://36kr.com/feed-moment')
     ]
